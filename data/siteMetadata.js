@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'Pakjeon 的博客',
   author: 'Pakjeon',
-  headerTitle: '(*´▽｀)ノノ here is Pakjeon',
+  headerTitle: '欢迎来到 Pakjeon 的小站',
   description: '万千利器，莫过于你的信念',
   language: 'zh-CN',
   theme: 'system', // system, dark or light
@@ -11,9 +11,9 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
+  email: 'makpakjeon@gmail.com',
+  github: 'https://github.com/pakjeon',
+  x: 'https://twitter.com/PakJeon1',
   // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
