@@ -1,6 +1,8 @@
 import Link from './Link'
+import Image from './Image'
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
+import beianIcon from 'public/static/images/beian.png'
 
 export default function Footer() {
   return (
@@ -24,10 +26,16 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
-        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            Tailwind Nextjs Theme
-          </Link>
+        <div className="mb-8 flex items-center gap-x-1 text-sm text-gray-500 dark:text-gray-400">
+          <Link href={siteMetadata.icp.beian.url}>{siteMetadata.icp.beian.title}</Link>
+          <div className="flex items-center">
+            <Image
+              src={beianIcon}
+              alt={siteMetadata.icp.gongan.title}
+              className="mx-1 inline-block h-4 w-4"
+            />
+            <Link href={siteMetadata.icp.gongan.url}>{siteMetadata.icp.gongan.title}</Link>
+          </div>
         </div>
       </div>
     </footer>

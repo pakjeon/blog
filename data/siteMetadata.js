@@ -92,6 +92,17 @@ const siteMetadata = {
     //   indexName: 'docsearch',
     // },
   },
+
+  icp: {
+    beian: {
+      title: '粤ICP备2023119367号-1',
+      url: 'https://beian.miit.gov.cn/',
+    },
+    gongan: {
+      title: '粤公网安备44060002000106',
+      url: 'https://beian.mps.gov.cn/#/query/webSearch?code=44060002000106',
+    },
+  },
 }
 
 module.exports = siteMetadata
