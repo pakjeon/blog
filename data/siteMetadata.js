@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'Pakjeon 的博客',
   author: 'Pakjeon',
-  headerTitle: '欢迎来到 Pakjeon 的小站',
+  // headerTitle: '欢迎来到 Pakjeon 的小站',
   description: '万千利器，莫过于你的信念',
   language: 'zh-CN',
   theme: 'system', // system, dark or light
